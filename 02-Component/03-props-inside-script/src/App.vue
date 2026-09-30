@@ -12,8 +12,8 @@
         title.value = "REACT IS BETTER"
     }, 3000)
 
-    const handleClick = () => {
-        console.log("test")
+    const logMessage = (name) => {
+        console.log("Input field changed!: ", name)
     }
 
 </script>
@@ -25,7 +25,7 @@
     </header>
     <main>
         <SideContent />
-        <InputField @on-input="handleClick"/>
+        <InputField @on-change="logMessage"/>
     </main>
     <footer>
         <SiteFooter />

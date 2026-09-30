@@ -47,7 +47,7 @@
     
     a:hover {
         color:gray;
-        transition: 0.3s;
+        transition: 1.25s;
     }
 
 </style>
